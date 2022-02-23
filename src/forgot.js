@@ -10,7 +10,7 @@ function Forgot() {
         <div className="wel">
           <Link to="/">
             <header>
-              <img src={Banka} className="banks" />
+              <img src={Banka} alt="" className="banks" />
               <h1>Banka</h1>
             </header>
           </Link>
@@ -39,7 +39,9 @@ function Forgot() {
               <label className="labs">Email *</label>
             </div>
 
-            <a className="register-btn">Reset</a>
+            <a className="register-btn" href="">
+              Reset
+            </a>
           </div>
         </div>
       </div>

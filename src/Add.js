@@ -23,7 +23,7 @@ function Add() {
         </header>
         <section id="insider">
           <aside className="drey">
-            <img src={Savings} />
+            <img src={Savings} alt="I got" />
           </aside>
           <main className="jet">
             <article className="frys">

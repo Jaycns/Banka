@@ -11,7 +11,6 @@ function SignIn() {
           <header>Sign In</header>
           <div className="inputbox">
             <div className="three">
-              {/* <label className="custom-label">Email</label> */}
               <input type="Email" name="" required="Email" className="all" />
               <label className="labs">Email *</label>
             </div>
@@ -24,9 +23,11 @@ function SignIn() {
               />
               <label className="labs">Password *</label>
             </div>
-            <a className="register-btn">Register</a>
+            <a href="" className="register-btn">
+              Register
+            </a>
             <h3>
-              Forgot Password?{" "}
+              Forgot Password?
               <Link to="/forgot">
                 <span>Reset Password</span>
               </Link>
@@ -36,7 +37,7 @@ function SignIn() {
         <div className="wel">
           <Link to="/">
             <header>
-              <img src={Banka} className="banks" />
+              <img src={Banka} alt="I like" className="banks" />
 
               <h1>Banka</h1>
             </header>

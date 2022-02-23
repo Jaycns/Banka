@@ -7,8 +7,6 @@ import Woman from "./images/woman.svg";
 import Man from "./images/man.svg";
 import Painter from "./images/game.svg";
 import Add from "./Add";
-import Form from "./form";
-import SignIn from "./signin";
 import { Link } from "react-router-dom";
 
 function App() {
@@ -48,31 +46,31 @@ function App() {
               </article>
             </main>
             <aside className="dre">
-              <img src={Savings} />
+              <img src={Savings} alt="I am here" />
             </aside>
           </section>
           <div className="floating-b">
-            <img src={Angle} />
+            <img src={Angle} alt="I am here" />
           </div>
         </div>
         <section id="dinner">
           <div className="jagz">
             <div className="jag">
-              <img src={Woman} />
+              <img src={Woman} alt="I am here" />
               <p>
                 Bankaensures all accounts, transactions, and client detail are
                 secure with end to end encription
               </p>
             </div>
             <div className="jag">
-              <img src={Man} />
+              <img src={Man} alt="I am here" />
               <p>
                 Bankaensures all accounts, transactions, and client detail are
                 secure with end to end encription
               </p>
             </div>
             <div className="jag">
-              <img src={Painter} />
+              <img src={Painter} alt="I am here" />
               <p>
                 Banka ensure the platform is easy to use with easy steps and
                 descriptive functionalities.

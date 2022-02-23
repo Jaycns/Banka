@@ -1,7 +1,6 @@
 import React from "react";
 import Banka from "./images/banka.png";
 import "./form.css";
-import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 
 function Form() {
@@ -75,7 +74,9 @@ function Form() {
               <label className="labs">Confirm Password *</label>
             </div>
 
-            <a className="register-btn">Register</a>
+            <a href="" className="register-btn">
+              Register
+            </a>
           </div>
         </div>
       </div>

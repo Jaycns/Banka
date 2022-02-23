@@ -1,0 +1,285 @@
+/* html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+} */
+body {
+  font-family: "Quicksand", sans-serif;
+  background: white;
+}
+a {
+  text-decoration: none;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+}
+.landing {
+  background-color: #1d5ab2;
+  width: 100%;
+  min-height: 700px;
+  border-radius: 0 0 120px 120px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.llheader {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 2.5%;
+}
+.front {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-family: "Comic Neue", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 1%;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+.beader {
+  color: white;
+  font-size: 40px;
+}
+.never {
+  display: block;
+}
+.open {
+  margin: 1vmax 0 1vmax 0;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1vw;
+  line-height: 2vw;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  padding-top: 5%;
+}
+.open li {
+  margin: 1vmax;
+  color: white;
+  text-decoration: none;
+}
+#inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+main {
+  flex-basis: 50%;
+  display: block;
+}
+.fry {
+  color: #ffffff;
+  align-content: center;
+  justify-content: center;
+  height: 80%;
+  font-weight: bold;
+  font-size: 2.8vw;
+  margin: 15vh 0 0 10%;
+}
+.btn {
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  background-color: #ffab57;
+  border-radius: 37px;
+  font-style: normal;
+  line-height: 22px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 20px 30px;
+  margin-top: 4.5%;
+  display: block;
+}
+.dre {
+  display: block;
+  flex-basis: 50%;
+}
+.dre img {
+  width: 100%;
+  min-height: 470px;
+}
+@keyframes arrowJiggle {
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.floating-b {
+  text-align: center;
+  margin-top: -1vh;
+  animation: arrowJiggle infinite 2s 1s ease-in-out;
+}
+.floating-b img {
+  width: 60px;
+  left: 10%;
+  display: inline-block;
+}
+.jagz {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10%;
+}
+.jag {
+  height: 200px;
+  width: 200px;
+  flex-wrap: wrap;
+}
+.jag img {
+  height: 215px;
+  width: 215px;
+  align-self: center;
+}
+.jag p {
+  margin-top: 20%;
+}
+footer {
+  background-color: #1d5ab2;
+  color: #ffffff;
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0%;
+  margin-top: 20%;
+  position: absolute;
+}
+.lander {
+  background-color: white;
+  width: 100%;
+  color: #1d5ab2;
+  box-sizing: border-box;
+  text-align: center;
+}
+.maker {
+  justify-content: space-between;
+}
+.jet {
+  align-items: center;
+}
+.fronter {
+  font-family: "Comic Neue", cursive;
+  font-weight: bold;
+  color: #1d5ab2;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.fronter img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15%;
+}
+
+.bead {
+  font-size: 20px;
+  color: #1d5ab2;
+}
+.close {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 25px;
+  cursor: pointer;
+  gap: 10px;
+}
+.drey img {
+  height: 23rem;
+  width: 100%;
+  min-height: 50px;
+}
+.frys {
+  font-size: 2vh;
+  color: #1d5ab2;
+  text-align: center;
+  width: 90%;
+}
+.btw {
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  background-color: #ffab57;
+  border-radius: 37px;
+  font-style: normal;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+.feeter {
+  position: absolute;
+  bottom: 0% !important;
+  background-color: #1d5ab2;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  left: 0%;
+}
+.second {
+  display: none;
+}
+@media screen and (max-width: 850px) {
+  .second {
+    display: block;
+  }
+  .flush {
+    display: none;
+  }
+}
+@media screen and (min-width: 820px) {
+  .drey img {
+    height: 45rem;
+  }
+  .bead {
+    font-size: 30px;
+  }
+  .fronter img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .drey img {
+    height: 40rem;
+  }
+  .bead {
+    font-size: 30px;
+  }
+  .fronter img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 912px) {
+  footer{
+    margin-top: 35.2%;
+  }
+}

@@ -23,7 +23,7 @@ function SignIn() {
               />
               <label className="labs">Password *</label>
             </div>
-            <a href="" className="register-btn">
+            <a href="https://gogoanime.fi/" className="register-btn">
               Register
             </a>
             <h3>

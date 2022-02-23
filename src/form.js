@@ -74,7 +74,7 @@ function Form() {
               <label className="labs">Confirm Password *</label>
             </div>
 
-            <a href="" className="register-btn">
+            <a href="https://gogoanime.fi/" className="register-btn">
               Register
             </a>
           </div>

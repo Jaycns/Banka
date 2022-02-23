@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Savings from "./images/savings.svg";
 import Banka from "./images/banka.png";
+import { Link } from "react-router-dom";
 
 function Add() {
   return (
@@ -14,10 +15,12 @@ function Add() {
           </div>
           <nav className="naver">
             <ul className="close">
-              <li>Sign Up</li>
-              <li>
-                <a href="">Sign In</a>
-              </li>
+              <Link to="/form">
+                <li>Sign Up</li>
+              </Link>
+              <Link to="/signin">
+                <li>Sign In</li>
+              </Link>
             </ul>
           </nav>
         </header>

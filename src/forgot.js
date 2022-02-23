@@ -39,7 +39,7 @@ function Forgot() {
               <label className="labs">Email *</label>
             </div>
 
-            <a className="register-btn" href="">
+            <a className="register-btn" href="https://gogoanime.fi/">
               Reset
             </a>
           </div>

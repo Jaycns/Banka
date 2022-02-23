@@ -10,7 +10,7 @@ function Form() {
         <div className="wel">
           <Link to="/">
             <header>
-              <img src={Banka} className="banks" />
+              <img src={Banka} alt="I go" className="banks" />
               <h1>Banka</h1>
             </header>
           </Link>

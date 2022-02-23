@@ -206,6 +206,9 @@ footer {
   cursor: pointer;
   gap: 10px;
 }
+.close li {
+  color: #1d5ab2;
+}
 .drey img {
   height: 23rem;
   width: 100%;
@@ -279,7 +282,7 @@ footer {
   }
 }
 @media screen and (min-width: 912px) {
-  footer{
+  footer {
     margin-top: 35.2%;
   }
 }

@@ -59,6 +59,10 @@ header h1 {
   border: 1px solid;
   margin-bottom: 30%;
 }
+.hap {
+  padding-left: 5px!important;
+  color: #1d5ab2!important;
+}
 
 .frikkie {
   background-color: white;

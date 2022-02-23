@@ -29,7 +29,7 @@ function SignIn() {
             <h3>
               Forgot Password?
               <Link to="/forgot">
-                <span>Reset Password</span>
+                <span className="hap">Reset Password</span>
               </Link>
             </h3>
           </div>

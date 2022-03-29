@@ -46,6 +46,7 @@ header h1 {
 .kiss p {
   font-size: 1.2rem;
   letter-spacing: 0.02rem;
+  margin-top: 10%;
 }
 .kiss button {
   padding: 8px 24px;
@@ -57,11 +58,11 @@ header h1 {
   border-radius: 4px;
   letter-spacing: 0.1rem;
   border: 1px solid;
-  margin-bottom: 30%;
+  margin: 10% 0 0%;
 }
 .hap {
-  padding-left: 5px!important;
-  color: #1d5ab2!important;
+  padding-left: 5px !important;
+  color: #1d5ab2 !important;
 }
 
 .frikkie {

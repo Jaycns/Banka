@@ -11,7 +11,7 @@ function Form() {
           <Link to="/">
             <header>
               <img src={Banka} alt="I go" className="banks" />
-              <h1>Banka</h1>
+              <h1>Jaycn</h1>
             </header>
           </Link>
           <div className="kiss">

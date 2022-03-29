@@ -19,7 +19,7 @@ function App() {
             <div className="front">
               <img src={Banka} className="logo" alt="I am here" />
 
-              <h1 className="beader">Banka</h1>
+              <h1 className="beader">Jaycn</h1>
             </div>
             <nav className="never">
               <ul className="open">
@@ -35,8 +35,8 @@ function App() {
           <section id="inner">
             <main>
               <article className="fry">
-                Bank with Banka Today and discover a Fast and easier way to
-                perform banking operaations from any locations on any modern
+                Bank with Jaycn today and discover a faster and easier way to
+                perform banking operaations from any location on any modern
                 device.
                 <Link to="/form">
                   <button type="submit" className="btn">

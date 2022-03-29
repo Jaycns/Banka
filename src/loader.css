@@ -1,0 +1,27 @@
+.loader-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 200px;
+    background-color: #ffffff
+}
+.cancel-btn {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}

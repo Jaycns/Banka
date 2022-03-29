@@ -4,6 +4,9 @@
   padding: 0;
   height: 100%;
 } */
+* {
+  margin: 0;
+}
 body {
   font-family: "Quicksand", sans-serif;
   background: white;
@@ -20,7 +23,7 @@ a {
   background-color: #1d5ab2;
   width: 100%;
   min-height: 700px;
-  border-radius: 0 0 120px 120px;
+
   flex-wrap: wrap;
   box-sizing: border-box;
 }
@@ -141,16 +144,17 @@ main {
 }
 .jag {
   height: 200px;
-  width: 200px;
+  width: 275px;
   flex-wrap: wrap;
 }
 .jag img {
-  height: 215px;
-  width: 215px;
+  height: 300px;
+  width: 300px;
   align-self: center;
 }
 .jag p {
   margin-top: 20%;
+  font-size: 20px;
 }
 footer {
   background-color: #1d5ab2;

@@ -39,7 +39,7 @@ function SignIn() {
             <header>
               <img src={Banka} alt="I like" className="banks" />
 
-              <h1>Banka</h1>
+              <h1>Jaycn</h1>
             </header>
           </Link>
 

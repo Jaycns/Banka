@@ -40,7 +40,7 @@ function Add() {
           </main>
         </section>
       </div>
-      <footer className="feeter">@ Banka CopyRight 2019</footer>
+      <footer className="feeter">@ Banka App design by Jaycn</footer>
     </div>
   );
 }

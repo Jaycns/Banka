@@ -11,6 +11,46 @@ body {
   font-family: "Quicksand", sans-serif;
   background: white;
 }
+html {
+  scroll-behavior: smooth;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  /* transition: all 0.8s; */
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(128, 128, 128);
+  border-radius: 5px;
+  background: transparent;
+  color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #085cf9 0%,
+    #6d56ef 33.57%,
+    #6306dd 65.86%,
+    #190eb2 100%
+  );
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #190eb2 0%,
+    #6d56ef 33.57%,
+    #6306dd 65.86%,
+    #085cf9 100%
+  );
+}
+
 a {
   text-decoration: none;
 }
@@ -22,7 +62,7 @@ a {
 .landing {
   background-color: #1d5ab2;
   width: 100%;
-  min-height: 700px;
+  min-height: 100vh;
 
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -30,8 +70,8 @@ a {
 .llheader {
   display: flex;
   justify-content: space-between;
+  padding: 0 5rem;
   margin: 0 auto;
-  padding-top: 2.5%;
 }
 .front {
   display: flex;
@@ -179,9 +219,7 @@ footer {
 }
 .maker {
   justify-content: space-between;
-}
-.jet {
-  align-items: center;
+  padding: 0 2rem;
 }
 .fronter {
   font-family: "Comic Neue", cursive;
@@ -189,12 +227,12 @@ footer {
   color: #1d5ab2;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5px;
 }
 .fronter img {
   width: 20px;
   height: 20px;
-  margin-top: 15%;
 }
 
 .bead {

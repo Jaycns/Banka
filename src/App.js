@@ -19,7 +19,7 @@ function App() {
             <div className="front">
               <img src={Banka} className="logo" alt="I am here" />
 
-              <h1 className="beader">Jaycn</h1>
+              <h1 className="beader">Banka</h1>
             </div>
             <nav className="never">
               <ul className="open">
@@ -50,7 +50,9 @@ function App() {
             </aside>
           </section>
           <div className="floating-b">
-            <img src={Angle} alt="I am here" />
+            <a href="#dinner" className="floating-b">
+              <img src={Angle} alt="I am here" />
+            </a>
           </div>
         </div>
         <section id="dinner">
@@ -78,7 +80,7 @@ function App() {
             </div>
           </div>
         </section>
-        <footer>@ Banka CopyRight 2019</footer>
+        <footer>@ Banka App design by Jaycn</footer>
       </div>
     </div>
   );

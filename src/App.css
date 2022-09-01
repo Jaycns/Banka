@@ -260,7 +260,7 @@ footer {
   font-size: 2vh;
   color: #1d5ab2;
   text-align: center;
-  width: 90%;
+  margin: 1rem 2rem;
 }
 .btw {
   font-weight: bold;

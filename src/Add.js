@@ -34,9 +34,11 @@ function Add() {
               perform banking operaations from any locations on any modern
               device.
             </article>
-            <button type="submit" className="btw">
-              GET STARTED
-            </button>
+            <Link to="/form">
+              <button type="submit" className="btw">
+                GET STARTED
+              </button>
+            </Link>
           </main>
         </section>
       </div>
